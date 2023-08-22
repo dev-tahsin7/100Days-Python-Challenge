@@ -1,0 +1,22 @@
+How to use Virtule Enviroment in Python
+
+Create a Virtule Enviroment:
+python3 -m venv VE_Name  # VE = Virtule Enviroment
+
+Active VE :
+Source VE_Name\bin\activate
+
+Activa VE in Windows:
+VE_Name\Scripts\active.bat
+
+Deactivate VE:
+Deactivate
+
+How to know how many package use in VE ?
+ pip freeze
+
+if you want to create list of all pack in txt file :
+pip freeze > requirement.txt 
+
+install requirement.txt file :
+pip install -r requirement.txt 
