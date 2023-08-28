@@ -1,7 +1,7 @@
 # File Handling 
 
 # Syntax :
-# f = open("ve.txt", "r") 
+f = open("ve.txt", "r") 
 # Here 1st para is filenaem 
 # 2nd para is mode 
 """
@@ -18,19 +18,21 @@ and also there two mode
 """
 
 # Read a File
-# f = open("main.txt", "rt")
-# print(f.read())
+
+f = open("main.txt", "rt")
+print(f.read())
 # we can also read a file line by line
-# print(f.readline())
-# f.close 
+print(f.readline())
+f.close 
 
 # Write and Append
-# f = open("main.txt", "a") # Appending
-# print(f.write("Hello People"))
-# f.close
 
-# f = open("main.txt", "r")
-# print(f.read())
+f = open("main.txt", "a") # Appending
+print(f.write("Hello People"))
+f.close
+
+f = open("main.txt", "r")
+print(f.read())
 
 # Append will add text in last 
 
